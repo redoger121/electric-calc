@@ -1,0 +1,17 @@
+.my-enter {
+  overflow: hidden;
+  max-height: 0px;
+}
+.my-enter-active {
+  max-height: 208px;
+  transition: max-height 0.5s;
+}
+.my-exit {
+  opacity: 1;
+  max-height: 208px;
+}
+.my-exit-active {
+  overflow: hidden;
+  max-height: 0px;
+  transition: max-height 0.5s cubic-bezier(0, 1, 0, 1);
+}
